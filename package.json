@@ -1,12 +1,14 @@
 {
   "name": "hello-express",
   "version": "1.0.0",
-  "description": "A hello world app in express.js ",
+  "description": "A hello world app in express.js",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yasin EHsan",
+  "author": "Edgardo Molina",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"

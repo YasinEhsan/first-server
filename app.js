@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
 
 app.get('/student', (req, res) => {
   // res.send('GNAG GNAG \n GNAG ');
+  console.log(req.query);
   res.json(STUDENTS)
 });
 
